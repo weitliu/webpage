@@ -9,32 +9,99 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main"><span data-i18n="t0">Skip to content</span></a>
   <header class="site-header wrap">
-    <a class="brand" href="#" aria-label="AXIS AI home"><span class="brand-mark" aria-hidden="true">a<span>✳</span></span>AXIS AI<span class="brand-company">LLC</span></a>
-    <nav aria-label="Main navigation"><a href="#industries">Industries</a><a class="nav-demo" href="#demo">Watch video <span aria-hidden="true">↗</span></a></nav>
+    <a class="brand" href="#home" aria-label="AXIS AI home"><span class="brand-mark" aria-hidden="true">a<span>✳</span></span>AXIS AI<span class="brand-company">LLC</span></a>
+    <nav class="page-tabs" aria-label="Website sections"><a id="tab-home" href="#home" data-tab="home"><span data-i18n="t1">Home</span></a><a id="tab-solutions" href="#solutions" data-tab="solutions"><span data-i18n="t2">Solutions</span></a><a id="tab-pricing" href="#pricing" data-tab="pricing"><span data-i18n="t52">PRICING &amp; SUPPORT</span></a><a id="tab-contact" href="#contact" data-tab="contact"><span data-i18n="t4">Contact</span></a></nav>
+    <button class="language-toggle" type="button" aria-label="切换到中文" lang="zh-CN" hidden>中文</button>
   </header>
   <main id="main">
+<div id="home-panel" class="page-panel" data-panel="home">
     <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ARTIFICIAL INTELLIGENCE. REAL-WORLD APPLICATION.</div>
-      <h1 id="hero-title">Intelligence for<br>the work <em>that matters.</em></h1>
-      <div class="hero-bottom"><p>We build AI solutions for the industries that keep the world moving. From the shop floor to the supply chain.</p><a class="button" href="#demo"><span class="play-icon" aria-hidden="true">▶</span> Watch the film <span aria-hidden="true">↗</span></a></div>
+      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> <span data-i18n="t5">ARTIFICIAL INTELLIGENCE. REAL-WORLD APPLICATION.</span></div>
+      <h1 id="hero-title"><span data-i18n="t6">Intelligence for</span><br><span data-i18n="t7">the work</span> <em><span data-i18n="t8">that matters.</span></em></h1>
+      <div class="hero-bottom"><p><span data-i18n="t9">We build AI solutions for the industries that keep the world moving. From the shop floor to the supply chain.</span></p></div>
     </section>
-    <section id="demo" class="demo wrap" aria-labelledby="demo-title">
-      <div class="demo-top"><h2 id="demo-title">A closer look at AXIS AI</h2><span class="demo-label"><span aria-hidden="true">●</span> INTRODUCING AXIS AI</span></div>
-      <div class="video-stage"><video controls playsinline preload="metadata" poster="assets/demo-poster.jpg" aria-label="AXIS AI introduction video"><source src="assets/axis-ai-demo.mp4" type="video/mp4">Your browser does not support embedded video. <a href="assets/axis-ai-demo.mp4">Download the demonstration</a>.</video></div>
-      <div class="demo-bottom"><span>See our work in motion.</span><a href="assets/axis-ai-demo.mp4" download>Download video <span aria-hidden="true">↓</span></a></div>
-    </section>
+<div class="retail-content">      <section id="overview" class="content-section wrap" aria-labelledby="overview-title">
+        <p class="eyebrow"><span data-i18n="t15">AXIS AI · SUPERMARKET OPERATIONS</span></p>
+        <div class="overview-grid">
+          <div>
+            <h2 id="overview-title"><span data-i18n="t16">Less invoice entry.</span><br><em><span data-i18n="t17">A clearer view of your store.</span></em></h2>
+            <p><span data-i18n="t18">Axis AI helps supermarkets reduce the manual work of entering supplier invoices and gives managers a clearer view of inventory, profit, and business performance, helping them make better everyday decisions.</span></p>
+            <p><span data-i18n="t19">Over time, the system also builds a cleaner, more complete foundation of purchasing and operating data, helping stores strengthen their management capabilities for the long term.</span></p>
+          </div>
+          <aside class="results-panel" aria-labelledby="results-title">
+            <h3 id="results-title"><span data-i18n="t20">Results from stores using Axis AI</span></h3>
+            <div class="result"><span><span data-i18n="t21">Previously: weekly invoice entry</span></span><strong><span data-i18n="t22">About 2</span> <small><span data-i18n="t23">days</span></small></strong></div>
+            <div class="result result-after"><span><span data-i18n="t24">Now: weekly exception review</span></span><strong><span data-i18n="t25">About 1–2</span> <small><span data-i18n="t26">hours</span></small></strong></div>
+          </aside>
+        </div>
+      </section></div>
     <section id="industries" class="industries wrap" aria-labelledby="industries-title">
-      <div class="section-heading"><div><p class="eyebrow">BUILT FOR INDUSTRY</p><h2 id="industries-title">Real businesses.<br><em>Practical intelligence.</em></h2></div><p>AI solutions for retail, wholesale, warehousing, transportation, and beyond.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span data-i18n="t27">BUILT FOR INDUSTRY</span></p><h2 id="industries-title"><span data-i18n="t28">Real businesses.</span><br><em><span data-i18n="t29">Practical intelligence.</span></em></h2></div><p><span data-i18n="t30">AI solutions for retail, wholesale, warehousing, transportation, and beyond.</span></p></div>
       <div class="industry-grid">
-        <article><span class="industry-number">01 /</span><h3>Retail</h3><p>From the shop floor to daily operations.</p></article>
-        <article><span class="industry-number">02 /</span><h3>Wholesale</h3><p>Across products, purchasing, and distribution.</p></article>
-        <article><span class="industry-number">03 /</span><h3>Warehousing</h3><p>Where inventory meets everyday operations.</p></article>
-        <article><span class="industry-number">04 /</span><h3>Transportation</h3><p>For the business of keeping goods moving.</p></article>
+        <article><span class="industry-number">01 /</span><h3><span data-i18n="t31">Retail</span></h3><p><span data-i18n="t32">From the shop floor to daily operations.</span></p></article>
+        <article><span class="industry-number">02 /</span><h3><span data-i18n="t33">Wholesale</span></h3><p><span data-i18n="t34">Across products, purchasing, and distribution.</span></p></article>
+        <article><span class="industry-number">03 /</span><h3><span data-i18n="t35">Warehousing</span></h3><p><span data-i18n="t36">Where inventory meets everyday operations.</span></p></article>
+        <article><span class="industry-number">04 /</span><h3><span data-i18n="t37">Transportation</span></h3><p><span data-i18n="t38">For the business of keeping goods moving.</span></p></article>
       </div>
     </section>
-  </main>
-  <footer class="wrap"><a class="brand footer-brand" href="#">AXIS AI<span class="brand-company">LLC</span></a><p>Artificial intelligence. Applied to industry.</p><span>© 2026 AXIS AI LLC</span></footer>
+    <section id="demo" class="demo wrap" aria-labelledby="demo-title">
+      <div class="demo-top"><h2 id="demo-title"><span data-i18n="t11">A closer look at AXIS AI</span></h2><span class="demo-label"><span aria-hidden="true">●</span> <span data-i18n="t12">INTRODUCING AXIS AI</span></span></div>
+      <div class="video-stage"><video controls controlslist="nodownload" playsinline preload="metadata" poster="assets/demo-poster.jpg" aria-label="AXIS AI introduction video"><source src="assets/axis-ai-demo.mp4" type="video/mp4"><span data-i18n="t14">Your browser does not support embedded video. Please use a modern browser to watch this video.</span></video></div>
+      <div class="demo-bottom"><span><span data-i18n="t13">See our work in motion.</span></span></div>
+    </section>
+</div>
+<div id="solutions-panel" class="page-panel" data-panel="solutions">
+<div class="retail-content">      <section id="challenges" class="content-section wrap" aria-labelledby="challenges-title">
+        <p class="eyebrow"><span data-i18n="t39">THE PROBLEMS WE ADDRESS</span></p>
+        <h2 id="challenges-title"><span data-i18n="t40">From manual entry</span><br><em><span data-i18n="t41">to clearer business decisions.</span></em></h2>
+        <ol class="challenge-list">
+          <li><h3><span data-i18n="t42">Invoice entry takes too much time</span></h3><p><span data-i18n="t43">Staff spend too much time manually entering supplier invoices.</span></p></li>
+          <li><h3><span data-i18n="t44">Purchasing changes are easy to miss</span></h3><p><span data-i18n="t45">Price changes, promotions, case-pack differences, and new products are easy to overlook and are handled inconsistently.</span></p></li>
+          <li><h3><span data-i18n="t46">Sales totals do not tell the whole story</span></h3><p><span data-i18n="t47">Managers can see total sales, but may not see which SKUs actually make money, which products tie up cash, or which are about to run out.</span></p></li>
+          <li><h3><span data-i18n="t48">Replenishment is reactive</span></h3><p><span data-i18n="t49">Fast-selling products can run out while slow-moving stock piles up.</span></p></li>
+          <li><h3><span data-i18n="t50">Knowledge stays with a few people</span></h3><p><span data-i18n="t51">Purchasing and pricing expertise is held by a small number of people, making it difficult to turn that knowledge into a lasting capability for the store.</span></p></li>
+        </ol>
+      </section></div>
+</div>
+<div id="pricing-panel" class="page-panel" data-panel="pricing">
+<div class="retail-content">      <section id="pricing" class="content-section wrap" aria-labelledby="pricing-title">
+        <p class="eyebrow"><span data-i18n="t52">PRICING &amp; SUPPORT</span></p>
+        <h2 id="pricing-title"><span data-i18n="t53">Priced per store.</span><em><span data-i18n="t54">Try the first month free.</span></em></h2>
+        <div class="pricing-grid">
+          <div class="price-panel">
+            <h3><span data-i18n="t55">Per store</span></h3>
+            <p class="trial"><span data-i18n="t56">Month 1: free trial</span></p>
+            <p class="price-start"><span data-i18n="t58">From month 2</span></p>
+            <a class="pricing-contact" href="#contact"><span data-i18n="pricingContact">Contact us for more details.</span> <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="support-panel">
+            <h3><span data-i18n="t59">Support &amp; data</span></h3>
+            <dl>
+              <div><dt><span data-i18n="t60">Remote support</span></dt><dd><span data-i18n="t61">Remote RDP support provided by Axis AI staff.</span></dd></div>
+              <div><dt><span data-i18n="t62">Data stays at your store</span></dt><dd><span data-i18n="t63">Invoices and data are stored only on the store’s local hard drive.</span></dd></div>
+              <div><dt><span data-i18n="t64">Software updates &amp; maintenance</span></dt><dd><span data-i18n="t65">We provide software updates and maintenance if changes to the store’s software interface or workflow affect operation.</span></dd></div>
+            </dl>
+          </div>
+        </div>
+      </section></div>
+</div>
+<div id="contact-panel" class="page-panel" data-panel="contact">
+<section class="contact-section wrap retail-content" aria-labelledby="contact-title">
+  <p class="eyebrow"><span data-i18n="t66">CONTACT AXIS AI</span></p>
+  <h2 id="contact-title"><span data-i18n="t67">Start with your store.</span><br><em><span data-i18n="t68">Let’s talk about what AI can do.</span></em></h2>
+  <p class="contact-intro"><span data-i18n="t69">Email us to learn about the free trial, discuss your store’s needs, or get support.</span></p>
+  <div class="contact-card">
+    <div><h3><span data-i18n="t70">Email</span></h3><a class="contact-email" href="mailto:aigrocer360@gmail.com">aigrocer360@gmail.com</a></div>
+    <a class="button" href="mailto:aigrocer360@gmail.com"><span data-i18n="t71">Send an email</span> <span aria-hidden="true">↗</span></a>
+  </div>
+  <p class="contact-note"><span data-i18n="t72">Tell us about your store and the invoice entry, inventory, or business management challenges you would like to improve.</span></p>
+</section>
+</div>
+</main>
+  <footer class="wrap"><a class="brand footer-brand" href="#home">AXIS AI<span class="brand-company">LLC</span></a><p><span data-i18n="t73">Artificial intelligence. Applied to industry.</span></p><span>© 2026 AXIS AI LLC</span></footer>
+  <script src="tabs.js" defer></script>
+  <script src="language.js" defer></script>
 </body>
 </html>
