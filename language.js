@@ -1,5 +1,8 @@
 const axisTranslations = {
-  "pricingContact": {"en": "Contact us for more details.", "zh-CN": "联系我们，了解更多详情。"},
+  "pricingContact": {
+    "en": "Contact us for more details.",
+    "zh-CN": "联系我们，了解更多详情。"
+  },
   "t0": {
     "en": "Skip to content",
     "zh-CN": "跳转到正文"
@@ -21,24 +24,24 @@ const axisTranslations = {
     "zh-CN": "联系我们"
   },
   "t5": {
-    "en": "ARTIFICIAL INTELLIGENCE. REAL-WORLD APPLICATION.",
-    "zh-CN": "人工智能，应用于真实业务。"
+    "en": "AI FOR EVERYDAY OPERATIONS",
+    "zh-CN": "让 AI 融入日常经营"
   },
   "t6": {
-    "en": "Intelligence for",
-    "zh-CN": "让智能融入"
+    "en": "Less paperwork.",
+    "zh-CN": "减少繁琐录单，"
   },
   "t7": {
-    "en": "the work",
-    "zh-CN": "每一份"
+    "en": "More",
+    "zh-CN": "看清"
   },
   "t8": {
-    "en": "that matters.",
-    "zh-CN": "重要的工作。"
+    "en": "clarity.",
+    "zh-CN": "门店经营。"
   },
   "t9": {
-    "en": "We build AI solutions for the industries that keep the world moving. From the shop floor to the supply chain.",
-    "zh-CN": "我们为推动世界运转的行业打造 AI 解决方案，从门店一线到供应链。"
+    "en": "AI for the people keeping business moving. Turn time spent entering invoices into a clearer view of inventory, profit, and daily operations.",
+    "zh-CN": "为推动业务运转的人打造 AI。减少进货单录入投入，更清楚地掌握库存、利润与日常经营。"
   },
   "t10": {
     "en": "Watch the film",
@@ -65,12 +68,12 @@ const axisTranslations = {
     "zh-CN": "AXIS AI · 超市经营"
   },
   "t16": {
-    "en": "Less invoice entry.",
-    "zh-CN": "减少录单投入，"
+    "en": "Built around",
+    "zh-CN": "围绕门店，"
   },
   "t17": {
-    "en": "A clearer view of your store.",
-    "zh-CN": "看清门店经营。"
+    "en": "your daily operations.",
+    "zh-CN": "服务日常经营。"
   },
   "t18": {
     "en": "Axis AI helps supermarkets reduce the manual work of entering supplier invoices and gives managers a clearer view of inventory, profit, and business performance, helping them make better everyday decisions.",
@@ -81,15 +84,15 @@ const axisTranslations = {
     "zh-CN": "更重要的是，系统还能逐步建立更干净、更完整的采购与经营数据基础，帮助门店长期提升管理能力。"
   },
   "t20": {
-    "en": "Results from stores using Axis AI",
+    "en": "In stores using Axis AI",
     "zh-CN": "现有门店的实际使用情况"
   },
   "t21": {
-    "en": "Previously: weekly invoice entry",
-    "zh-CN": "原本每周的录单工作"
+    "en": "Weekly invoice entry, before",
+    "zh-CN": "原本每周录单"
   },
   "t22": {
-    "en": "About 2",
+    "en": "~2",
     "zh-CN": "约 2"
   },
   "t23": {
@@ -97,11 +100,11 @@ const axisTranslations = {
     "zh-CN": "天"
   },
   "t24": {
-    "en": "Now: weekly exception review",
-    "zh-CN": "现在每周的异常审核"
+    "en": "Weekly exception review, now",
+    "zh-CN": "现在每周异常审核"
   },
   "t25": {
-    "en": "About 1–2",
+    "en": "1–2",
     "zh-CN": "约 1–2"
   },
   "t26": {
@@ -213,28 +216,28 @@ const axisTranslations = {
     "zh-CN": "费用与支持"
   },
   "t53": {
-    "en": "Priced per store.",
-    "zh-CN": "按门店计费，"
+    "en": "One store.",
+    "zh-CN": "从一家门店开始，"
   },
   "t54": {
-    "en": "Try the first month free.",
+    "en": "Your first month, on us.",
     "zh-CN": "首月免费试用。"
   },
   "t55": {
-    "en": "Per store",
-    "zh-CN": "每家店"
+    "en": "THE FIRST MONTH",
+    "zh-CN": "第 1 个月"
   },
   "t56": {
-    "en": "Month 1: free trial",
-    "zh-CN": "第 1 个月：免费试用"
+    "en": "Free trial",
+    "zh-CN": "免费试用"
   },
   "t57": {
     "en": "/ month / store",
     "zh-CN": "/ 月 / 店"
   },
   "t58": {
-    "en": "From month 2",
-    "zh-CN": "第 2 个月起"
+    "en": "From month 2 · Contact us for pricing",
+    "zh-CN": "第 2 个月起 · 联系我们了解费用"
   },
   "t59": {
     "en": "Support & data",
@@ -269,12 +272,12 @@ const axisTranslations = {
     "zh-CN": "CONTACT AXIS AI · 联系我们"
   },
   "t67": {
-    "en": "Start with your store.",
-    "zh-CN": "从您的门店开始，"
+    "en": "Your store.",
+    "zh-CN": "您的门店，"
   },
   "t68": {
-    "en": "Let’s talk about what AI can do.",
-    "zh-CN": "聊聊 AI 能做什么。"
+    "en": "Our next conversation.",
+    "zh-CN": "我们的下一次对话。"
   },
   "t69": {
     "en": "Email us to learn about the free trial, discuss your store’s needs, or get support.",
